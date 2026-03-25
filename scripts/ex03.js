@@ -18,11 +18,11 @@ function balanço() {
     alert("ganho anual : " + ganhoanual);
     alert("gasto anual : " + gastoanual);
 
-    
+
 
     saldo = ganhoanual - gastoanual;
 
-    if (saldo > 0){
+    if (saldo > 0) {
         alert("Voce teve um lucro de : " + saldo);
     } else {
         alert("seu prejuizo foi de : " + saldo);
