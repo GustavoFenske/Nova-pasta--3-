@@ -12,7 +12,7 @@ function folha2() {
         liquido = salario * 0.8;
         let taxa = 8;
 
-    } else if ((salario > 1000) || (salario < 1500)) {
+    } else if ((salario > 1000) && (salario <= 1500)) {
         liquido = salario * 0.85;
         taxa = 8.5;
     }else{
